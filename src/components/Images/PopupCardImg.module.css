@@ -1,0 +1,246 @@
+.popupContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	/* background-color: bisque; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.popupBox {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	animation: myAnim 2s ease 0s 1 normal forwards;
+	margin: 0;
+	align-items: center;
+	align-content: center;
+	display: flex;
+	box-sizing: border-box;
+	/* padding: 3px; */
+}
+
+.popupBoxImg {
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.popupCloseBtn {
+	position: absolute;
+	top: -50px;
+	right: -200px;
+	cursor: pointer;
+	color: red;
+	font-size: 50px;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.popupBox {
+		width: 500px;
+		height: 500px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: 0;
+		right: -150px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 995px) {
+	.popupBox {
+		width: 450px;
+		height: 450px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -40px;
+		right: -150px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 867px) {
+	.popupBox {
+		width: 430px;
+		height: 430px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -50px;
+		right: -130px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 763px) {
+	.popupBox {
+		width: 410px;
+		height: 410px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -100px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 790px) {
+	.popupBox {
+		width: 400px;
+		height: 400px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -85px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 645px) {
+	.popupBox {
+		width: 390px;
+		height: 390px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -85px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 610px) {
+	.popupBox {
+		width: 380px;
+		height: 380px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -70px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 570px) {
+	.popupBox {
+		width: 370px;
+		height: 370px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -50px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 510px) {
+	.popupBox {
+		width: 360px;
+		height: 360px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -20px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 465px) {
+	.popupBox {
+		width: 330px;
+		height: 330px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -20px;
+		font-size: 40px;
+
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 420px) {
+	.popupBox {
+		width: 300px;
+		height: 300px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -20px;
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 380px) {
+	.popupBox {
+		width: 270px;
+		height: 270px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -20px;
+		font-size: 35px;
+
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 355px) {
+	.popupBox {
+		width: 240px;
+		height: 240px;
+		/* background-color: blue; */
+	}
+
+	.popupCloseBtn {
+		top: -60px;
+		right: -20px;
+		font-size: 30px;
+
+		/* background-color: rgb(208, 208, 23); */
+	}
+}
+@media only screen and (max-width: 312px) {
+	.popupContainer {
+		display: none;
+	}
+	.popupBox {
+		display: none;
+	}
+
+	.popupBoxImg {
+		display: none;
+	}
+	.popupBox {
+		display: none;
+	}
+
+	.popupCloseBtn {
+		display: none;
+	}
+}

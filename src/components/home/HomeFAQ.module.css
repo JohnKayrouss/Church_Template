@@ -1,0 +1,1402 @@
+.FAQContainer {
+	width: 100%;
+	height: 900px;
+	background-image: url("../../utilities/triangleTop.svg");
+	position: relative;
+}
+.content {
+	width: 100vw;
+	height: 800px;
+	display: flex;
+}
+.headerText {
+	color: rgb(9, 9, 10);
+	text-align: center;
+	font-size: 50px;
+	padding: 40px 0 60px 0;
+	transition: 1s;
+}
+.headerText:hover {
+	text-align: center;
+	font-size: 50px;
+	padding: 40px 0 60px 0;
+	transition: 1s;
+	letter-spacing: 0.1em;
+	animation-delay: 2s;
+}
+
+.popupContainer {
+	width: 45vw;
+	height: 100%;
+	display: flex;
+	align-content: space-around;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* background-color: blueviolet; */
+	padding-bottom: 100px;
+}
+
+.popupCard {
+	width: 28%;
+	height: 40%;
+	background-color: #e2e2e1;
+	display: flex;
+	margin: 0 auto;
+	border-radius: 10px;
+	transition: 1s;
+
+	display: flex;
+	flex-direction: column;
+}
+.popupCard:hover {
+	cursor: pointer;
+	transition: 1s;
+	box-sizing: border-box;
+	border-radius: 15px;
+	transform: scale(1.1);
+	background-color: #eee;
+	-webkit-box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+		15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+		25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+	box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+		15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+		25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+}
+
+.imgContainer {
+	width: 45vw;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.imgWrapper {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+}
+.imgWrapper img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+	-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+	box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+	transition: 1s;
+}
+.imgWrapper img:hover {
+	width: 550px;
+	height: 550px;
+	transition: 1s ease-in-out;
+	opacity: 1;
+	border-radius: 20px;
+}
+
+.popupCardHeader {
+	width: 100%;
+	height: fit-content;
+	padding: 5%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.popupCardAnswer {
+	padding: 0 5%;
+	font-size: 20px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.popupHeader {
+	width: 60%;
+	height: 20%;
+	font-size: 30px;
+	padding: 1% 0 5% 0;
+	font-weight: 400;
+	border-bottom: 2px solid #000;
+}
+.popupAnswer {
+	width: 60%;
+	height: fit-content;
+	/* background-color: rgb(122, 226, 167, 0.4); */
+	padding: 2% 0 5% 1%;
+	font-size: 20px;
+}
+.popupLink {
+	text-decoration: none;
+	color: #0000ff;
+	transition: 1s;
+}
+.popupLink:hover {
+	text-decoration: none;
+	color: #0000ff;
+	transition: 1s;
+	letter-spacing: 0.1em;
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 1400px) and (min-width: 1350px) {
+	.content {
+		width: 100%;
+		height: 800px;
+		margin-top: 10px;
+	}
+	.headerText {
+		text-align: center;
+		font-size: 50px;
+		font-size: 3.05em;
+		padding: 40px 0 60px 0;
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 3.05em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.1em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 55vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.popupCard {
+		width: 28%;
+		height: 40%;
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.05);
+		background-color: #eee;
+		-webkit-box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+			15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+			25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+		box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+			15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+			25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 40vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+	}
+	.imgWrapper {
+		width: 450px;
+		height: 450px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 480px;
+		height: 480px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 16px;
+		font-size: 0.8em;
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 1.2em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 1.5em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 70%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4);s */
+		padding: 2% 0 5% 1%;
+		font-size: 1em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 1349px) and (min-width: 1200px) {
+	.content {
+		width: 100%;
+		height: 700px;
+		margin-top: 15px;
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 50px;
+		font-size: 3em;
+		padding: 40px 0 60px 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 3.03em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.08em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 55vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 28%;
+		height: 33%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.02);
+		background-color: #eee;
+		-webkit-box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+			15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+			25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+		box-shadow: 5px 5px 0px 0px #4c4c4c, 10px 10px 0px 0px #5f5f5f,
+			15px 15px 0px 0px #858585, 20px 20px 0px 0px #989898,
+			25px 25px 0px 0px #bebebe, 5px 5px 15px 5px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 35vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 370px;
+		height: 370px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 385px;
+		height: 385px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.7em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 1.17em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 1.2em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 65%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 2% 0 5% 1%;
+		font-size: 1em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+	.content {
+		width: 100%;
+		height: 680px;
+		margin-top: 30px;
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 2.8em;
+		padding: 40px 0 60px 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 2.9em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.08em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 58vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 28%;
+		height: 35%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.01);
+		background-color: #eee;
+		-webkit-box-shadow: 4px 4px 0px 0px #4c4c4c, 8px 8px 0px 0px #5f5f5f,
+			12px 12px 0px 0px #858585, 16px 16px 0px 0px #989898,
+			20px 20px 0px 0px #bebebe, 4px 4px 12px 4px rgba(238, 238, 238, 0);
+		box-shadow: 4px 4px 0px 0px #4c4c4c, 8px 8px 0px 0px #5f5f5f,
+			12px 12px 0px 0px #858585, 16px 16px 0px 0px #989898,
+			20px 20px 0px 0px #bebebe, 4px 4px 12px 4px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 32vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 320px;
+		height: 320px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 330px;
+		height: 330px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.7em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 1.17em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 1.1em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 65%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 2% 0 5% 1%;
+		font-size: 0.9em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 1099px) and (min-width: 992px) {
+	.FAQContainer {
+		width: 100%;
+		height: 750px;
+		margin-bottom: 80px;
+		/* background-color: #0000ff; */
+	}
+	.content {
+		width: 100%;
+		height: 650px;
+		/* margin-top: 3px; */
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 2.3em;
+		padding: 40px 0 60px 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 2.4em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.08em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 55vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 26%;
+		height: 32%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.01);
+		background-color: #eee;
+		-webkit-box-shadow: 4px 4px 0px 0px #4c4c4c, 8px 8px 0px 0px #5f5f5f,
+			12px 12px 0px 0px #858585, 16px 16px 0px 0px #989898,
+			20px 20px 0px 0px #bebebe, 4px 4px 12px 4px rgba(238, 238, 238, 0);
+		box-shadow: 4px 4px 0px 0px #4c4c4c, 8px 8px 0px 0px #5f5f5f,
+			12px 12px 0px 0px #858585, 16px 16px 0px 0px #989898,
+			20px 20px 0px 0px #bebebe, 4px 4px 12px 4px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 35vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 305px;
+		height: 305px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 315px;
+		height: 315px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.6em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 1em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 1.05em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 65%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 2% 0 5% 1%;
+		font-size: 0.85em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 991px) and (min-width: 858px) {
+	.FAQContainer {
+		width: 100%;
+		height: 680px;
+		/* margin-bottom: 100px; */
+		/* background-color: #0000ff; */
+	}
+	.content {
+		width: 100%;
+		height: 620px;
+		/* margin-top: 30px; */
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 1.9em;
+		padding: 40px 0 60px 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 1.9em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.08em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 54vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 27%;
+		height: 30%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.01);
+		background-color: #eee;
+		-webkit-box-shadow: 3px 3px 0px 0px #4c4c4c, 6px 6px 0px 0px #5f5f5f,
+			9px 9px 0px 0px #858585, 12px 12px 0px 0px #989898,
+			16px 16px 0px 0px #bebebe, 3px 3px 9px 3px rgba(238, 238, 238, 0);
+		box-shadow: 3px 3px 0px 0px #4c4c4c, 6px 6px 0px 0px #5f5f5f,
+			9px 9px 0px 0px #858585, 12px 12px 0px 0px #989898,
+			16px 16px 0px 0px #bebebe, 3px 3px 9px 3px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 38vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 280px;
+		height: 280px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 285px;
+		height: 285px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.45em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.9em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 1em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 65%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 2% 0 5% 1%;
+		font-size: 0.83em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 857px) and (min-width: 680px) {
+	.FAQContainer {
+		width: 100%;
+		height: 630px;
+		/* margin-bottom: 100px; */
+		/* background-color: #0000ff; */
+	}
+	.content {
+		width: 100%;
+		height: 590px;
+		/* margin-top: 30px; */
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 1.5em;
+		padding: 40px 0 60px 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 1.5em;
+		padding: 40px 0 60px 0;
+		transition: 1s;
+		letter-spacing: 0.05em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 52vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 27%;
+		height: 27%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.01);
+		background-color: #eee;
+		-webkit-box-shadow: 3px 3px 0px 0px #4c4c4c, 6px 6px 0px 0px #5f5f5f,
+			9px 9px 0px 0px #858585, 12px 12px 0px 0px #989898,
+			16px 16px 0px 0px #bebebe, 3px 3px 9px 3px rgba(238, 238, 238, 0);
+		box-shadow: 3px 3px 0px 0px #4c4c4c, 6px 6px 0px 0px #5f5f5f,
+			9px 9px 0px 0px #858585, 12px 12px 0px 0px #989898,
+			16px 16px 0px 0px #bebebe, 3px 3px 9px 3px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 38vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 230px;
+		height: 230px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 240px;
+		height: 240px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.4em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.79em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 0.95em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 65%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 2% 0 5% 1%;
+		font-size: 0.8em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 679px) and (min-width: 466px) {
+	.FAQContainer {
+		width: 100%;
+		height: 450px;
+		/* margin-bottom: 100px; */
+		/* background-color: #0000ff; */
+	}
+	.content {
+		width: 100%;
+		height: 400px;
+		margin-top: 30px;
+		/* background-color: lightcoral; */
+	}
+	.headerText {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 30px 0 0 0;
+		/* color: blue; */
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 30px 0 0 0;
+		transition: 1s;
+		letter-spacing: 0.03em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 55vw;
+		height: 100%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 27%;
+		height: 31%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		border-radius: 15px;
+		transform: scale(1.01);
+		background-color: #eee;
+		-webkit-box-shadow: 2px 2px 0px 0px #4c4c4c, 4px 4px 0px 0px #5f5f5f,
+			6px 6px 0px 0px #858585, 9px 9px 0px 0px #989898,
+			12px 12px 0px 0px #bebebe, 2px 2px 6px 2px rgba(238, 238, 238, 0);
+		box-shadow: 2px 2px 0px 0px #4c4c4c, 4px 4px 0px 0px #5f5f5f,
+			6px 6px 0px 0px #858585, 9px 9px 0px 0px #989898,
+			12px 12px 0px 0px #bebebe, 2px 2px 6px 2px rgba(238, 238, 238, 0);
+	}
+
+	.imgContainer {
+		width: 35vw;
+		height: 100%;
+		display: flex;
+		overflow: hidden;
+		position: relative;
+		/* background-color: rgb(142, 205, 183); */
+	}
+	.imgWrapper {
+		width: 150px;
+		height: 150px;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2px;
+	}
+	.imgWrapper img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		-moz-box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		box-shadow: 0px 0px 6px 3px rgba(153, 148, 153, 0.4);
+		transition: 1s;
+	}
+	.imgWrapper img:hover {
+		width: 155px;
+		height: 155px;
+		transition: 1s ease-in-out;
+		opacity: 1;
+		border-radius: 20px;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.3em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.57em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 20%;
+		font-size: 0.8em;
+		padding: 1% 0 5% 0;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 73%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 3% 0 5% 1%;
+		font-size: 0.69em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 465px) and (min-width: 300px) {
+	.FAQContainer {
+		width: 100%;
+		height: 400px;
+		background-image: none;
+		margin-top: 30px;
+
+		/* margin-bottom: 100px; */
+	}
+	.content {
+		width: 100%;
+		height: 380px;
+		margin-top: 10px;
+		/* background-color: lightcoral; */
+		justify-content: center;
+	}
+	.headerText {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		/* color: blue; */
+		background-color: #e2e2e1;
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		transition: 1s;
+		letter-spacing: 0.03em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 100vw;
+		height: 90%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 27%;
+		height: 33%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		-webkit-box-shadow: none;
+	}
+
+	.imgContainer {
+		visibility: hidden;
+		display: none;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.23em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.5em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 13%;
+		font-size: 0.72em;
+		padding: 1% 0 4% 3%;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 70%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 5% 0 5% 3%;
+		font-size: 0.66em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 465px) and (min-width: 350px) {
+	.FAQContainer {
+		width: 100%;
+		height: 400px;
+		background-image: none;
+		margin-top: 30px;
+
+		/* margin-bottom: 100px; */
+	}
+	.content {
+		width: 100%;
+		height: 380px;
+		margin-top: 10px;
+		/* background-color: lightcoral; */
+		justify-content: center;
+	}
+	.headerText {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		/* color: blue; */
+		background-color: #e2e2e1;
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		transition: 1s;
+		letter-spacing: 0.03em;
+		animation-delay: 2s;
+	}
+
+	.popupContainer {
+		width: 100vw;
+		height: 90%;
+		display: flex;
+		align-content: space-around;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/* background-color: aquamarine; */
+	}
+
+	.popupCard {
+		width: 40%;
+		height: 30%;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 0 auto;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+	}
+	.popupCard:hover {
+		-webkit-box-shadow: none;
+	}
+
+	.imgContainer {
+		visibility: hidden;
+		display: none;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.23em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.5em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 13%;
+		font-size: 0.72em;
+		padding: 1% 0 4% 3%;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 70%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 5% 0 5% 3%;
+		font-size: 0.66em;
+	}
+}
+
+/* !================================================ */
+
+@media screen and (max-width: 349px) and (min-width: 144px) {
+	.FAQContainer {
+		width: 100%;
+		height: 15em;
+		background-image: none;
+		margin-top: 30px;
+		background-image: none;
+		/* background-color: #e2e2e1; */
+		border-radius: 1px solid black;
+
+		background-color: #ddd;
+	}
+	.headerText {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		/* color: blue; */
+		background-color: #e2e2e1;
+	}
+	.headerText:hover {
+		text-align: center;
+		font-size: 0.9em;
+		padding: 15px 0;
+		transition: 1s;
+		letter-spacing: 0.03em;
+		animation-delay: 2s;
+	}
+
+	.content {
+		width: 100%;
+		height: 200px;
+		margin-top: 10px;
+		/* background-color: rgb(115, 140, 126); */
+		justify-content: center;
+	}
+
+	.popupContainer {
+		width: 100vw;
+		height: 10em;
+		display: flex;
+		/* align-content: space-around; */
+		box-sizing: border-box;
+		/* flex-wrap: wrap; */
+		/* justify-content: space-between; */
+		/* background-color: aquamarine; */
+		display: flex;
+		flex-direction: column;
+		overflow-x: auto;
+	}
+
+	.popupCard {
+		width: 40%;
+		height: 8em;
+		/* background-color: #e8e828; */
+		display: flex;
+		margin: 1em;
+		border-radius: 10px;
+		transition: 1s;
+
+		display: flex;
+		flex-direction: column;
+		border: 1px solid rgb(131, 126, 126);
+	}
+	.popupCard:hover {
+		-webkit-box-shadow: none;
+	}
+
+	.imgContainer {
+		visibility: hidden;
+		display: none;
+	}
+
+	.popupCardHeader {
+		width: 100%;
+		height: fit-content;
+		padding: 5%;
+		box-sizing: border-box;
+		font-size: 0.23em;
+		/* color: darkred; */
+	}
+
+	.popupCardAnswer {
+		padding: 0 5%;
+		font-size: 0.5em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		/* color: darkblue; */
+	}
+	.popupHeader {
+		width: 60%;
+		height: 13%;
+		font-size: 0.72em;
+		padding: 1% 0 4% 3%;
+		font-weight: 400;
+		border-bottom: 2px solid #000;
+		/* background-color: #d16b6b; */
+	}
+	.popupAnswer {
+		width: 70%;
+		height: fit-content;
+		/* background-color: rgb(122, 226, 167, 0.4); */
+		padding: 5% 0 5% 3%;
+		font-size: 0.66em;
+	}
+}

@@ -41,7 +41,7 @@ export const FAQCardText = [
 			"You can reach us by phone at (555) 123-4567, via email at contact@churchname.org, or visit us at our office located at 123 Church Street, Anytown, USA. Our office hours are Monday to Friday, 9 AM to 5 PM.",
 	},
 	{
-		FAQHeader: "What activities are there for my kids?",
+		FAQHeader: "Activities for kids?",
 		FAQAnswer:
 			"We offer a variety of activities for children including Sunday School classes during our 10 AM service, a midweek Kids Club on Wednesday evenings, and special events such as Vacation Bible School and holiday programs. All activities are designed to be fun and educational, focusing on teaching biblical principles.",
 	},
@@ -77,7 +77,7 @@ export const meetingCard = [
 		meetingContent: "Sundays 6:00 pm - 7:30 pm",
 	},
 	{
-		meetingHeader: "Monday Evening Prayer Meeting",
+		meetingHeader: "Monday Prayer Meeting",
 		meetingContent: "Mondays 7:00 pm - 8:00 pm",
 	},
 	{
@@ -85,7 +85,7 @@ export const meetingCard = [
 		meetingContent: "Tuesdays 7:00 pm - 8:30 pm",
 	},
 	{
-		meetingHeader: "Wednesday Midweek Service",
+		meetingHeader: "Wednesday Service",
 		meetingContent: "Wednesdays 7:00 pm - 8:30 pm",
 	},
 	{

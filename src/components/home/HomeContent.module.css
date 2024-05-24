@@ -5,4 +5,5 @@
 	/* overflow: hidden; */
 	box-sizing: border-box;
 	background-image: url("../../utilities/endless-constellation.svg");
+	overflow-x: hidden;
 }

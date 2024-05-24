@@ -19,7 +19,7 @@
 	margin: 0 auto 1.875em auto;
 	transition: 500ms;
 	cursor: zoom-in;
-	/* background-color: green; */
+	background-color: green;
 	text-align: center;
 	display: block;
 }
@@ -49,7 +49,7 @@
 
 	height: fit-content;
 
-	/* background-color: rgb(168, 127, 72, 0.3); */
+	background-color: rgb(168, 127, 72, 0.3);
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -59,7 +59,7 @@
 .meetingsContentCard {
 	width: 20em;
 	height: 12.5em;
-	/* background-color: rgb(214, 128, 128, 0.5); */
+	background-color: rgb(214, 128, 128, 0.5);
 	margin: 0.625em;
 	display: flex;
 	flex-direction: column;
@@ -75,12 +75,12 @@
 .meetingCardHeader {
 	width: 100%;
 	height: 20%;
-	/* background-color: rgb(138, 43, 226, 0.3); */
+	background-color: rgb(138, 43, 226, 0.3);
 }
 .meetingCardText {
 	width: 100%;
 	height: 20%;
-	/* background-color: rgba(43, 226, 156, 0.3); */
+	background-color: rgba(43, 226, 156, 0.3);
 }
 .meetingCardHeaderH2 {
 	text-align: center;
@@ -101,7 +101,6 @@
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
 	.meetingsContainer {
 		width: 100%;
-		/* height: 780px; */
 		height: fit-content;
 		align-items: center;
 		padding-top: 50px;
@@ -175,7 +174,6 @@
 		margin: 0 auto 1em auto;
 		transition: 500ms;
 		cursor: zoom-in;
-		/* background-color: lightgreen; */
 		text-align: center;
 		display: block;
 	}
@@ -190,13 +188,10 @@
 		font-size: 0.9em;
 		font-weight: 500;
 		padding-top: 3px;
-		/* background-color: rgb(168, 127, 72, 0.3); */
 	}
 	.meetingsContentBox {
 		width: 63vw;
 		height: fit-content;
-
-		/* background-color: rgb(168, 127, 72, 0.3); */
 		margin: auto;
 		display: flex;
 		justify-content: space-around;
@@ -204,9 +199,8 @@
 		padding: 0 2em;
 	}
 	.meetingsContentCard {
-		width: 10em;
-		height: 9em;
-		/* background-color: rgb(214, 128, 128, 0.5); */
+		width: 13em;
+		height: 10em;
 		margin: 0.5em;
 		display: flex;
 		flex-direction: column;
@@ -215,14 +209,13 @@
 	}
 	.meetingsCardIcon {
 		font-size: 2.4em;
-		/* background-color: darkkhaki; */
 		margin-bottom: 0.2em;
 		margin-top: 0.6em;
 	}
 
 	.meetingCardHeaderH2 {
 		text-align: center;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		font-weight: 500;
 	}
 	.meetingCardHeaderH4 {
@@ -267,7 +260,7 @@
 		/* background-color: rgb(168, 127, 72, 0.3); */
 	}
 	.meetingsContentBox {
-		width: 61vw;
+		width: 62vw;
 		height: fit-content;
 
 		/* background-color: rgb(168, 127, 72, 0.3); */
@@ -278,8 +271,8 @@
 		padding: 0 1.5em;
 	}
 	.meetingsContentCard {
-		width: 9em;
-		height: 8em;
+		width: 12em;
+		height: 9em;
 		/* background-color: rgb(214, 128, 128, 0.5); */
 		margin: 0.5em;
 		display: flex;
@@ -296,7 +289,7 @@
 
 	.meetingCardHeaderH2 {
 		text-align: center;
-		font-size: 1.1em;
+		font-size: 1em;
 		font-weight: 500;
 	}
 	.meetingCardHeaderH4 {
@@ -323,7 +316,6 @@
 		margin: 0 auto 0.8em auto;
 		transition: 500ms;
 		cursor: zoom-in;
-		/* background-color: lightgreen; */
 		text-align: center;
 		display: block;
 	}
@@ -370,12 +362,12 @@
 
 	.meetingCardHeaderH2 {
 		text-align: center;
-		font-size: 1.24em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 	.meetingCardHeaderH4 {
 		text-align: center;
-		font-size: 0.87em;
+		font-size: 0.7em;
 		font-weight: 500;
 	}
 }
@@ -426,8 +418,8 @@
 		padding: 0 1.5em;
 	}
 	.meetingsContentCard {
-		width: 13em;
-		height: 8em;
+		width: 15em;
+		height: 10em;
 		/* background-color: rgb(214, 128, 128, 0.5); */
 		margin: 0.5em;
 		display: flex;
@@ -453,8 +445,154 @@
 		font-weight: 500;
 	}
 }
+@media screen and (max-width: 700px) and (min-width: 500px) {
+	.meetingsContainer {
+		width: 100%;
+		height: fit-content;
+		align-items: center;
+		padding-top: 50px;
+		box-sizing: border-box;
+		background: #e3e3e1;
+	}
 
-@media screen and (max-width: 679px) and (min-width: 144px) {
+	.meetingsHeaderBox {
+		width: 13em;
+		height: 9em;
+		padding: 0.2em;
+		margin: 0 auto 0.8em auto;
+		transition: 500ms;
+		cursor: zoom-in;
+		/* background-color: lightgreen; */
+		text-align: center;
+		display: block;
+	}
+	.meetingsHeaderIcon {
+		font-size: 3em;
+		padding: 5px;
+	}
+	.meetingsH1 {
+		font-size: 1.2em;
+	}
+	.meetingsH3 {
+		font-size: 0.7em;
+		font-weight: 500;
+		padding-top: 3px;
+		/* background-color: rgb(168, 127, 72, 0.3); */
+	}
+	.meetingsContentBox {
+		width: 80vw;
+		height: fit-content;
+
+		/* background-color: rgb(168, 127, 72, 0.3); */
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 0 1.5em;
+	}
+	.meetingsContentCard {
+		width: 12em;
+		height: 8em;
+		/* background-color: rgb(214, 128, 128, 0.5); */
+		margin: 0.5em;
+		display: flex;
+		flex-direction: column;
+		transition: 500ms;
+		cursor: zoom-in;
+	}
+	.meetingsCardIcon {
+		font-size: 1.6em;
+		/* background-color: darkkhaki; */
+		margin-bottom: 0.25em;
+		margin-top: 0.6em;
+	}
+
+	.meetingCardHeaderH2 {
+		text-align: center;
+		font-size: 0.9em;
+		font-weight: 500;
+	}
+	.meetingCardHeaderH4 {
+		text-align: center;
+		font-size: 0.7em;
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 580px) and (min-width: 500px) {
+	.meetingsContainer {
+		width: 100%;
+		height: fit-content;
+		align-items: center;
+		padding-top: 50px;
+		box-sizing: border-box;
+		background: #e3e3e1;
+	}
+
+	.meetingsHeaderBox {
+		width: 13em;
+		height: 9em;
+		padding: 0.2em;
+		margin: 0 auto 0.8em auto;
+		transition: 500ms;
+		cursor: zoom-in;
+		/* background-color: lightgreen; */
+		text-align: center;
+		display: block;
+	}
+	.meetingsHeaderIcon {
+		font-size: 3em;
+		padding: 5px;
+	}
+	.meetingsH1 {
+		font-size: 1.2em;
+	}
+	.meetingsH3 {
+		font-size: 0.7em;
+		font-weight: 500;
+		padding-top: 3px;
+		/* background-color: rgb(168, 127, 72, 0.3); */
+	}
+	.meetingsContentBox {
+		width: 80vw;
+		height: fit-content;
+
+		/* background-color: rgb(168, 127, 72, 0.3); */
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 0 1.5em;
+	}
+	.meetingsContentCard {
+		width: 10em;
+		height: 8em;
+		/* background-color: rgb(214, 128, 128, 0.5); */
+		margin: 0.5em;
+		display: flex;
+		flex-direction: column;
+		transition: 500ms;
+		cursor: zoom-in;
+	}
+	.meetingsCardIcon {
+		font-size: 1.5em;
+		/* background-color: darkkhaki; */
+		margin-bottom: 0.25em;
+		margin-top: 0.6em;
+	}
+
+	.meetingCardHeaderH2 {
+		text-align: center;
+		font-size: 0.8em;
+		font-weight: 500;
+	}
+	.meetingCardHeaderH4 {
+		text-align: center;
+		font-size: 0.6em;
+		font-weight: 500;
+	}
+}
+
+@media screen and (max-width: 479px) and (min-width: 144px) {
 	.meetingsContainer {
 		width: 100%;
 		height: fit-content;

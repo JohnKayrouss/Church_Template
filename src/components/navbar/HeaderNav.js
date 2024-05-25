@@ -3,7 +3,6 @@ import "./HeaderNav.css";
 import { Link, useNavigate } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../utilities/Logo_5.png";
-// import { translatationWrapper } from "../../translationWrapper/translationWrapper";
 
 const HeaderNav = () => {
 	const navigate = useNavigate();

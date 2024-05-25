@@ -5,14 +5,15 @@ import HeaderNav from "./components/navbar/HeaderNav";
 import "./globalStyles.css";
 
 import MainContainer from "./components/MainContainer/MainContainer";
-import FooterContainer from "./components/footer/FooterContainer";
+
+import Contact from "./components/contact/Contact";
 
 function App() {
 	return (
 		<React.Fragment>
 			<HeaderNav />
 			<MainContainer />
-			<FooterContainer />
+			<Contact />
 		</React.Fragment>
 	);
 }

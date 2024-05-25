@@ -29,7 +29,6 @@
 	margin-top: 30px;
 	font-size: 40px;
 	margin-left: 10px;
-	color: #5b5c50;
 }
 .GalleryFooterBoxOut {
 	display: flex;
@@ -171,20 +170,17 @@
 	}
 	.galleryHeaderIcon {
 		font-size: 2.8em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconFirst {
 		margin-top: 30px;
 		font-size: 40px;
 		font-size: 2.5em;
 		margin-left: 10px;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		margin-top: 30px;
 		font-size: 40px;
 		margin-left: 10px;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		display: flex;
@@ -200,12 +196,10 @@
 		height: fit-content;
 		justify-content: center;
 		font-size: 3em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
 		cursor: grab;
-		/* margin-left: 100px; */
 		margin-right: 100px;
 		overflow: hidden;
 		width: 86.2%;
@@ -225,8 +219,6 @@
 		height: 100%;
 		box-sizing: border-box;
 		border-radius: 20px;
-		/* to be able to drag the image use that property */
-		pointer-events: none;
 	}
 
 	.innerCarousel {
@@ -237,13 +229,11 @@
 		font-size: 40px;
 		font-size: 2em;
 		margin-left: 10px;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		margin-top: 30px;
 		font-size: 2em;
 		margin-left: 10px;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		display: flex;
@@ -264,13 +254,10 @@
 		height: 80px;
 		flex-direction: column;
 		align-items: center;
-		/* background-color: greenyellow; */
-		/* color: #d62828; */
 	}
 
 	.galleryHeaderIcon {
 		font-size: 2.6em;
-		/* color: #d62828; */
 	}
 
 	.headerText {
@@ -278,7 +265,6 @@
 		transition: 1s;
 		height: fit-content;
 		font-size: 2.7em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
@@ -296,15 +282,12 @@
 
 	.galleryFooterIconFirst {
 		font-size: 1.6em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		font-size: 1.6em;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		height: 80px;
-		/* background-color: #28c62d; */
 	}
 }
 @media screen and (max-width: 1099px) and (min-width: 992px) {
@@ -316,13 +299,10 @@
 		height: 70px;
 		flex-direction: column;
 		align-items: center;
-		/* background-color: greenyellow; */
-		/* color: #d62828; */
 	}
 
 	.galleryHeaderIcon {
 		font-size: 2.3em;
-		/* color: #d62828; */
 	}
 
 	.headerText {
@@ -330,7 +310,6 @@
 		transition: 1s;
 		height: fit-content;
 		font-size: 2.3em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
@@ -348,15 +327,12 @@
 
 	.galleryFooterIconFirst {
 		font-size: 1.3em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		font-size: 1.3em;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		height: 80px;
-		/* background-color: #28c62d; */
 	}
 }
 
@@ -371,13 +347,10 @@
 		height: 60px;
 		flex-direction: column;
 		align-items: center;
-		/* background-color: greenyellow; */
-		/* color: #d62828; */
 	}
 
 	.galleryHeaderIcon {
 		font-size: 2.1em;
-		/* color: #d62828; */
 	}
 
 	.headerText {
@@ -385,7 +358,6 @@
 		transition: 1s;
 		height: fit-content;
 		font-size: 2.1em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
@@ -403,15 +375,12 @@
 
 	.galleryFooterIconFirst {
 		font-size: 1.2em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		font-size: 1.2em;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		height: 70px;
-		/* background-color: #28c62d; */
 	}
 }
 
@@ -427,13 +396,10 @@
 		height: 60px;
 		flex-direction: column;
 		align-items: center;
-		/* background-color: greenyellow; */
-		/* color: #d62828; */
 	}
 
 	.galleryHeaderIcon {
 		font-size: 2.1em;
-		/* color: #d62828; */
 	}
 
 	.headerText {
@@ -441,7 +407,6 @@
 		transition: 1s;
 		height: fit-content;
 		font-size: 2.1em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
@@ -458,15 +423,12 @@
 	}
 	.galleryFooterIconFirst {
 		font-size: 1.3em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		font-size: 1.3em;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		height: 70px;
-		/* background-color: #28c62d; */
 	}
 }
 
@@ -483,13 +445,10 @@
 		height: 55px;
 		flex-direction: column;
 		align-items: center;
-		/* background-color: greenyellow; */
-		/* color: #d62828; */
 	}
 
 	.galleryHeaderIcon {
 		font-size: 1.5em;
-		/* color: #d62828; */
 	}
 
 	.headerText {
@@ -497,7 +456,6 @@
 		transition: 1s;
 		height: fit-content;
 		font-size: 1.5em;
-		/* color: #d62828; */
 	}
 
 	.Carousel {
@@ -514,14 +472,11 @@
 	}
 	.galleryFooterIconFirst {
 		font-size: 1.3em;
-		/* color: #d62828; */
 	}
 	.galleryFooterIconSecond {
 		font-size: 1.3em;
-		color: #5b5c50;
 	}
 	.GalleryFooterBoxOut {
 		height: 70px;
-		/* background-color: #28c62d; */
 	}
 }

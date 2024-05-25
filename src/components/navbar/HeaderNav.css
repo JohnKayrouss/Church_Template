@@ -27,7 +27,6 @@
 	height: 70px;
 	width: 70px;
 	position: relative;
-	/* background-color: rgb(53, 184, 140); */
 	overflow: hidden;
 	margin-left: 90px;
 	cursor: pointer;
@@ -42,7 +41,6 @@
 	color: var(--textColor);
 	text-decoration: none;
 	transition: 1s;
-	/* background-color: aquamarine; */
 }
 .navLink:hover {
 	color: var(--secondaryColor);
@@ -68,6 +66,14 @@ header .nav-btn:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+	.navLink__logo {
+		height: 70px;
+		width: 70px;
+		position: relative;
+		overflow: hidden;
+		margin-left: 0;
+		cursor: pointer;
+	}
 	header nav {
 		position: fixed;
 		top: 0;

@@ -19,7 +19,6 @@
 	background: white;
 	height: 64px;
 	transition: all 1s ease-in-out;
-	/* border-radius: 10px; */
 }
 .box::before {
 	content: "";
@@ -40,7 +39,6 @@ header.box {
 		0 2px 4px -4px rgba(0, 0, 0, 0.24);
 }
 header .boxTitle {
-	/* margin: 0 0 0 20px; */
 	font-weight: normal;
 	font-size: 20pt;
 	color: black;
@@ -131,7 +129,6 @@ input:checked + section.box .boxTitle:before {
 		background: white;
 		height: 64px;
 		transition: all 1s ease-in-out;
-		/* border-radius: 10px; */
 	}
 	.box::before {
 		content: "";
@@ -152,7 +149,6 @@ input:checked + section.box .boxTitle:before {
 			0 2px 4px -4px rgba(0, 0, 0, 0.24);
 	}
 	header .boxTitle {
-		/* margin: 0 0 0 20px; */
 		font-weight: normal;
 		font-size: 20pt;
 		color: black;
@@ -236,7 +232,6 @@ input:checked + section.box .boxTitle:before {
 		height: 64px;
 		line-height: 64px;
 		padding: 0 20px;
-		/* color: blue; */
 		font-size: 13px;
 		white-space: nowrap;
 	}
@@ -263,7 +258,6 @@ input:checked + section.box .boxTitle:before {
 		height: 64px;
 		line-height: 64px;
 		padding: 0 20px;
-		/* color: blue; */
 		font-size: 11px;
 		white-space: nowrap;
 	}
@@ -289,7 +283,6 @@ input:checked + section.box .boxTitle:before {
 		height: 60px;
 		line-height: 64px;
 		padding: 0 20px;
-		/* color: blue; */
 		font-size: 10px;
 		white-space: nowrap;
 	}
@@ -315,7 +308,6 @@ input:checked + section.box .boxTitle:before {
 		height: 60px;
 		line-height: 64px;
 		padding: 0 20px;
-		/* color: blue; */
 		font-size: 9px;
 		white-space: nowrap;
 	}
@@ -341,7 +333,6 @@ input:checked + section.box .boxTitle:before {
 		height: 60px;
 		line-height: 64px;
 		padding: 0 20px;
-		/* color: blue; */
 		font-size: 7px;
 		white-space: nowrap;
 	}

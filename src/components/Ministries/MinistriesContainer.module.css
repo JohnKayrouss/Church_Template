@@ -2,9 +2,7 @@
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
-	/* overflow: hidden; */
-	/* box-sizing: border-box; */
-	/* background-color: antiquewhite; */
+
 	display: flex;
 	flex-direction: row;
 }
@@ -12,7 +10,6 @@
 	padding-top: 50px;
 	width: 15%;
 	min-height: 100vh;
-	/* height: fit-content; */
 	box-sizing: border-box;
 	background-color: #e3e3e1;
 }
@@ -29,7 +26,6 @@
 	width: 80%;
 	box-sizing: border-box;
 	background-color: inherit;
-	/* background-color: rgb(117, 104, 184, 0.4); */
 	padding: 10px 10px 10px 0px;
 	border: none;
 	font-size: 20px;
@@ -49,7 +45,6 @@
 	width: 85%;
 	min-height: 100vh;
 	box-sizing: border-box;
-	/* background-color: rgb(152, 186, 164); */
 	font-size: 24px;
 	font-weight: 500;
 }
@@ -57,8 +52,6 @@
 	width: 100%;
 	width: fit-content;
 	height: 70px;
-	/* background-color: aquamarine; */
-	/* margin: auto; */
 	padding: 15px 0 10px 0;
 	font-size: 30px;
 
@@ -75,14 +68,12 @@
 	color: rgb(63, 61, 61, 0.5);
 }
 .ministryContentBoxContent {
-	/* background-color: darkkhaki; */
 	width: 80%;
 	padding: 0 5px 10px 50px;
 	font-size: 20px;
 	color: rgb(0, 0, 0, 0.8);
 }
 .ministryContentArrContent {
-	/* background-color: darkkhaki; */
 	width: 80%;
 	height: fit-content;
 	padding: 0 0 3px 8px;
@@ -90,7 +81,6 @@
 	color: rgb(0, 0, 0, 0.8);
 }
 .meetingscontentArr {
-	/* background-color: darkkhaki; */
 	padding: 0 5px 10px 40px;
 	font-size: 20px;
 }
@@ -119,11 +109,9 @@
 @media screen and (max-width: 1350px) and (min-width: 1200px) {
 	.MinistriesSideMenu {
 		width: 20%;
-		/* background-color: aquamarine; */
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 1.1em;
 	}
@@ -134,34 +122,28 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 70px;
 		width: 79%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 100%;
 		width: fit-content;
 		height: 70px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 1.2em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.76em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 1.1em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		padding: 0 5px 10px 50px;
 		font-size: 0.67em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 80%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
@@ -169,7 +151,6 @@
 		font-size: 0.65em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 40px;
 	}
 
@@ -197,7 +178,6 @@
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 1.08em;
 	}
@@ -208,34 +188,28 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 70px;
 		width: 79%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 100%;
 		width: fit-content;
 		height: 70px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 1.08em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.74em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 1.07em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		padding: 0 5px 10px 50px;
 		font-size: 0.63em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
@@ -243,7 +217,6 @@
 		font-size: 0.63em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 40px;
 	}
 
@@ -267,11 +240,9 @@
 @media screen and (max-width: 1099px) and (min-width: 992px) {
 	.MinistriesSideMenu {
 		width: 20%;
-		/* background-color: aquamarine; */
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 0.96em;
 	}
@@ -282,34 +253,28 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 70px;
 		width: 79%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 100%;
 		width: fit-content;
 		height: 70px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 0.95em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.72em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 1.02em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		padding: 0 5px 10px 50px;
 		font-size: 0.63em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
@@ -317,7 +282,6 @@
 		font-size: 0.6em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 30px;
 	}
 
@@ -341,11 +305,9 @@
 @media screen and (max-width: 991px) and (min-width: 858px) {
 	.MinistriesSideMenu {
 		width: 25%;
-		/* background-color: aquamarine; */
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 0.93em;
 	}
@@ -356,41 +318,34 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 50px;
 		width: 75%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 100%;
 		width: fit-content;
 		height: 70px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 0.82em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.7em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 1em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 130%;
 		padding: 0 5px 10px 50px;
 		font-size: 0.62em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
 		font-size: 0.57em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 20px;
 	}
 
@@ -414,11 +369,9 @@
 @media screen and (max-width: 857px) and (min-width: 680px) {
 	.MinistriesSideMenu {
 		width: 25%;
-		/* background-color: aquamarine; */
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 0.82em;
 	}
@@ -429,41 +382,34 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 40px;
 		width: 75%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 100%;
 		width: fit-content;
 		height: 60px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 0.8em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.7em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 0.9em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 150%;
 		padding: 0 5px 10px 40px;
 		font-size: 0.6em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
 		font-size: 0.51em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 0px;
 	}
 
@@ -487,11 +433,9 @@
 @media screen and (max-width: 679px) and (min-width: 600px) {
 	.MinistriesSideMenu {
 		width: 25%;
-		/* background-color: aquamarine; */
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
 		padding: 10px 10px 10px 0px;
 		font-size: 0.69em;
 	}
@@ -502,41 +446,33 @@
 	.ministryContentContainer {
 		padding: 42px 200px 100px 30px;
 		width: 75%;
-		/* background-color: rgb(152, 186, 164); */
 	}
 	.ministryContentBoxHeader {
 		width: 130%;
-		/* width: fit-content; */
 		height: 55px;
-		/* background-color: aquamarine; */
 		padding: 15px 0 10px 0;
 		font-size: 0.8em;
 	}
 	.ministryHeaderIcon {
 		font-size: 0.8em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 0.9em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 190%;
 		padding: 0 5px 10px 40px;
 		font-size: 0.6em;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
 		font-size: 0.51em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 0px;
 	}
 
@@ -562,9 +498,6 @@
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		/* overflow: hidden; */
-		/* box-sizing: border-box; */
-		/* background-color: antiquewhite; */
 		display: flex;
 		flex-direction: column;
 	}
@@ -578,8 +511,6 @@
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
-
 		padding: 13px 10px 10px 0px;
 		font-size: 0.9em;
 	}
@@ -590,20 +521,13 @@
 	.ministryContentContainer {
 		padding: 42px 0 100px 0;
 		width: 85%;
-		/* background-color: rgb(152, 186, 164); */
 		display: flex;
 		flex-direction: column;
 		margin: auto;
 	}
-	/* .ministryContentBoxHeaderMapContainer {
-		display: flex;
-		flex-direction: column;
-	} */
 	.ministryContentBoxHeader {
 		width: 100%;
-		/* width: fit-content; */
 		height: 50px;
-		/* background-color: aquamarine; */
 		padding: 10px 0 5px 0;
 		font-size: 0.7em;
 		text-align: center;
@@ -611,22 +535,18 @@
 	.ministryHeaderIcon {
 		font-size: 0.8em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 0.9em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		padding: 20px;
 		font-size: 0.5em;
 		text-align: center;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
@@ -634,7 +554,6 @@
 		white-space: nowrap;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 0px;
 	}
 
@@ -660,9 +579,6 @@
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		/* overflow: hidden; */
-		/* box-sizing: border-box; */
-		/* background-color: antiquewhite; */
 		display: flex;
 		flex-direction: column;
 	}
@@ -676,8 +592,6 @@
 	}
 
 	.ministriesSideMenuItem {
-		/* background-color: rgb(117, 104, 184, 0.4); */
-
 		padding: 13px 10px 10px 0px;
 		font-size: 0.5em;
 	}
@@ -688,20 +602,13 @@
 	.ministryContentContainer {
 		padding: 42px 0 100px 0;
 		width: 85%;
-		/* background-color: rgb(152, 186, 164); */
 		display: flex;
 		flex-direction: column;
 		margin: auto;
 	}
-	/* .ministryContentBoxHeaderMapContainer {
-		display: flex;
-		flex-direction: column;
-	} */
 	.ministryContentBoxHeader {
 		width: 100%;
-		/* width: fit-content; */
 		height: 50px;
-		/* background-color: aquamarine; */
 		padding: 10px 0 5px 0;
 		font-size: 0.7em;
 		text-align: center;
@@ -709,29 +616,24 @@
 	.ministryHeaderIcon {
 		font-size: 0.8em;
 		margin-right: 10px;
-		/* background-color: darkgreen; */
 	}
 	.meetingsContentArrIcon {
 		font-size: 0.9em;
 		margin-right: 10px;
-		/* background-color: blue; */
 	}
 	.ministryContentBoxContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		padding: 20px;
 		font-size: 0.5em;
 		text-align: center;
 	}
 	.ministryContentArrContent {
-		/* background-color: darkkhaki; */
 		width: 100%;
 		height: fit-content;
 		padding: 0 0 3px 8px;
 		font-size: 0.45em;
 	}
 	.meetingscontentArr {
-		/* background-color: darkkhaki; */
 		padding: 0 5px 10px 0px;
 	}
 

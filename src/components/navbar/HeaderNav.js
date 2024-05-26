@@ -16,9 +16,9 @@ const HeaderNav = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
 	const navPages = [
-		{ url: "images", urlName: `gallery` },
-		{ url: "ministries", urlName: `ministries` },
-		{ url: "aboutus", urlName: `aboutUs` },
+		{ url: "images", urlName: `Gallery` },
+		{ url: "ministries", urlName: `Ministries` },
+		{ url: "aboutus", urlName: `AboutUs` },
 		{ url: "faq", urlName: `FAQ` },
 	];
 	const logoHandler = () => {

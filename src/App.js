@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App;
+// look for webP to convert images into smaller size

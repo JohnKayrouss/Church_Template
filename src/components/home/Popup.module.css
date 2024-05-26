@@ -14,7 +14,7 @@
 	position: relative;
 	padding: 23px;
 	width: 60%;
-	height: 30%;
+	height: fit-content;
 	min-width: 640px;
 	background-color: #eee;
 	border-radius: 20px;
@@ -94,7 +94,7 @@
 		position: relative;
 		padding: 23px;
 		width: 50%;
-		height: 25%;
+		height: fit-content;
 		min-width: 640px;
 		background-color: #eee;
 		border-radius: 20px;
@@ -122,7 +122,7 @@
 		position: relative;
 		padding: 23px;
 		width: 50%;
-		height: 25%;
+		height: fit-content;
 		min-width: 640px;
 		background-color: #eee;
 		border-radius: 20px;
@@ -150,7 +150,7 @@
 		position: relative;
 		padding: 23px;
 		width: 45%;
-		height: 25%;
+		height: fit-content;
 		min-width: 600px;
 		background-color: #eee;
 		border-radius: 20px;
@@ -177,7 +177,7 @@
 	.popupBox {
 		position: relative;
 		padding: 23px;
-		height: 25%;
+		height: fit-content;
 		min-width: 570px;
 		max-width: 570px;
 		background-color: #eee;
@@ -205,7 +205,7 @@
 	.popupBox {
 		position: relative;
 		padding: 23px;
-		height: 20%;
+		height: fit-content;
 		min-width: 550px;
 		max-width: 550px;
 		background-color: #eee;
@@ -233,7 +233,7 @@
 	.popupBox {
 		position: relative;
 		padding: 23px;
-		height: 18%;
+		height: fit-content;
 		min-width: 520px;
 		max-width: 520px;
 		background-color: #eee;
@@ -261,7 +261,7 @@
 	.popupBox {
 		position: relative;
 		padding: 23px;
-		height: 13%;
+		height: fit-content;
 		min-width: 400px;
 		max-width: 400px;
 		background-color: #eee;
@@ -294,7 +294,7 @@
 	.popupBox {
 		position: relative;
 		padding: 23px;
-		height: 12%;
+		height: fit-content;
 		min-width: 280px;
 		max-width: 280px;
 		background-color: #eee;
